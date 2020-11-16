@@ -1,0 +1,27 @@
+.btn{
+  &,&:link{
+    border: none;
+    padding: 1.2rem 1.5rem;
+    border-radius: 1rem;
+    display: inline-block;
+    transition: all $dur ease-out;
+    font-size: $para;
+
+  }
+  &-success{
+    background-color: rgb(77, 164, 198);
+    color: white;
+    &:hover{
+      background-color: $succesHover-color;
+      box-shadow: 0 2px 20px rgba(0,0,0,.1);
+    }
+  }
+  &-green{
+    background-color: #36ec54;
+    color: white;
+    &:hover{
+      background-color: #14a72d;
+      box-shadow: 0 2px 20px rgba(0,0,0,.1);
+    }
+  }
+}

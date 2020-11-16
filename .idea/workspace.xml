@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40f6da4f-f607-49dd-9c27-299ec11f09f8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kEAVQsZRv0OfjiY5iwS828omdf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Spacebars" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NCBN PC DIGITAL\WebstormProjects\BLOG\views\layout" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="compile_scss" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="compile_scss" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.compile_scss" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40f6da4f-f607-49dd-9c27-299ec11f09f8" name="Default Changelist" comment="" />
+      <created>1605255416205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605255416205</updated>
+      <workItem from="1605255421473" duration="17979000" />
+      <workItem from="1605279780154" duration="6176000" />
+      <workItem from="1605524908452" duration="2754000" />
+      <workItem from="1605528784426" duration="3751000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="733" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605273512942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="733" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605273512942" />
+    <state width="1362" height="259" key="GridCell.Tab.0.bottom" timestamp="1605531887262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605531887262" />
+    <state width="1362" height="259" key="GridCell.Tab.0.center" timestamp="1605531887261">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605531887261" />
+    <state width="1362" height="259" key="GridCell.Tab.0.left" timestamp="1605531887261">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605531887261" />
+    <state width="1362" height="259" key="GridCell.Tab.0.right" timestamp="1605531887261">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605531887261" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1605269369563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605269369563" />
+    <state x="616" y="242" key="run.anything.popup" timestamp="1605287690391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605287690391" />
+  </component>
+</project>

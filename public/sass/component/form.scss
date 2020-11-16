@@ -1,0 +1,31 @@
+.auth_form{
+  padding: 1rem;
+  //margin: 2rem;
+  .form--input-box{
+    padding: 1.5rem 1.2rem;
+    background-color: #f7f7f7;
+    border-radius: 1.5rem ;
+    font-size: 1.45rem;
+    &:not(:last-child){
+      margin: 1.5rem 0;
+    }
+    &-input{
+      border: none;
+      width: 100%;
+
+      background-color: inherit;
+    }
+  }
+  .form--input-box-checkbox{
+    display: flex;
+    justify-content: flex-start;
+    input{
+      display: inline-block;
+      background-color: red;
+    }
+    //label{
+    //  display: block;
+    //  background-color: red;
+    //}
+  }
+}

@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap");
+.logo {
+  font-size: 1.6rem;
+  color: #3697ec; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif; }
+
+html {
+  font-size: 62.5%; }
+  @media screen and (max-width: 56.5em) {
+    html {
+      font-size: 70%; } }
+  @media screen and (max-width: 75em) {
+    html {
+      font-size: 75%; } }
+  @media screen and (min-width: 112.5em) {
+    html {
+      font-size: 80%; } }
+
+.h2-bold {
+  font-size: 1.45rem;
+  font-weight: bold; }
+
+.para {
+  font-size: 1.45rem;
+  padding: 1rem 0; }
+
+.width-100 {
+  width: 100%; }
+
+.width-50 {
+  width: 50%; }
+
+.width-35 {
+  width: 35%; }
+
+.mg-auto-h {
+  margin: 2rem auto; }
+
+.auth_form {
+  padding: 1rem; }
+  .auth_form .form--input-box {
+    padding: 1.5rem 1.2rem;
+    background-color: #f7f7f7;
+    border-radius: 1.5rem;
+    font-size: 1.45rem; }
+    .auth_form .form--input-box:not(:last-child) {
+      margin: 1.5rem 0; }
+    .auth_form .form--input-box-input {
+      border: none;
+      width: 100%;
+      background-color: inherit; }
+  .auth_form .form--input-box-checkbox {
+    display: flex;
+    justify-content: flex-start; }
+    .auth_form .form--input-box-checkbox input {
+      display: inline-block;
+      background-color: red; }
+
+.navigation {
+  background-color: white;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .navigation .nav--list {
+    list-style: none;
+    padding: 1.5rem;
+    display: flex; }
+    .navigation .nav--list-item {
+      margin: .5rem 1.5rem; }
+      .navigation .nav--list-item-link {
+        font-size: 1.45rem;
+        color: #424242;
+        text-decoration: none; }
+        .navigation .nav--list-item-link:hover {
+          color: #3697ec;
+          cursor: pointer; }
+
+.admin-nav {
+  background-color: white;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .admin-nav--list {
+    list-style: none;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .admin-nav--list-item {
+      margin: .5rem 1.5rem; }
+      .admin-nav--list-item-link {
+        font-size: 1.45rem;
+        color: #424242;
+        text-decoration: none; }
+        .admin-nav--list-item-link:hover {
+          color: #3697ec;
+          cursor: pointer; }
+
+.admin-body {
+  display: flex; }
+  .admin-body .side-bar {
+    flex: .15;
+    background-color: #f7f7f7;
+    min-height: 100vh; }
+  .admin-body .main-section {
+    padding: 2rem;
+    background-color: #f8fff7;
+    flex: 1; }
+
+.btn, .btn:link {
+  border: none;
+  padding: 1.2rem 1.5rem;
+  border-radius: 1rem;
+  display: inline-block;
+  transition: all 0.35s ease-out;
+  font-size: 1.45rem; }
+
+.btn-success {
+  background-color: #4da4c6;
+  color: white; }
+  .btn-success:hover {
+    background-color: #3697ec;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1); }
+
+.btn-green {
+  background-color: #36ec54;
+  color: white; }
+  .btn-green:hover {
+    background-color: #14a72d;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1); }
