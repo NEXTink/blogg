@@ -20,32 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f6da4f-f607-49dd-9c27-299ec11f09f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-light-300.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/posts/edit-post.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/posts/posts-list.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/auth/logout.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/post_helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sass/abstract/abstract.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/sass/abstract/abstract.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sass/component/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/sass/component/buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/sass/component/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/sass/component/form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sass/layout/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/sass/layout/layout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/authRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authRoute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/posts/create-post.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/posts/create-post.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/admin.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/admin.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/posts/posts-list.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/posts/posts-list.handlebars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +108,7 @@
       <workItem from="1605524908452" duration="2754000" />
       <workItem from="1605528784426" duration="8391000" />
       <workItem from="1605597904020" duration="14578000" />
-      <workItem from="1605618345280" duration="10917000" />
+      <workItem from="1605618345280" duration="13381000" />
     </task>
     <servers />
   </component>

@@ -25,15 +25,28 @@ Router.post('/post',(req,res)=>{
     }
     else{
         const file = req.files;
-        const filename =  Date.now() + "_" + file.name;
-        file.mv('/uploads/posts' + filename,(err)=>console.log(err));
+        const filename =  Date.now() + "_" + file.file.name;
+        let allowComments = false;
+        if(req.body.allowComments==='on'){
+            allowComments = true;
+        }
+        else {
+            allowComments = false;
+        }
         const post = new Post({
-            title: req.body.title,
-
+          title: req.body.title,
+          body: req.body.body,
+          allowComments: allowComments,
+          file: filename
         });
         post.save()
-            .then(()=>console.log('saved'))
-            .catch(err=>err)
+            .then(()=> {
+
+                file.file.mv('/uploads/' + filename,(err)=>console.log(err))
+                res.send('done')
+            })
+            .catch(err=>console.log(err));
+
     }
 
 });
@@ -43,9 +56,14 @@ Router.get('/posts',(req,res)=>{
     if(!req.session.USERID ){
         res.status(401).send('unauthorized');
     }
-    else{
 
-        res.render('admin/posts/posts-list',{layout: 'admin'})
+    else{
+        Post.find({})
+            .lean()
+            .then(posts=>{
+                res.render('admin/posts/posts-list',{layout: 'admin', posts})
+            })
+            .catch(err=>err);
     }
 
 

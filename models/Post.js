@@ -16,7 +16,11 @@ const Post = new mongoose.Schema({
         default: Date.now,
     },
     file: String,
-    Status: String,
+    allowComments: {
+        type: Boolean,
+        default: true,
+    },
+
     admin: {
         type: Boolean,
         default: false,

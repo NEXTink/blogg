@@ -128,6 +128,9 @@ html {
   .form-options-btn :first-child {
     margin-right: 1rem; }
 
+.table-img {
+  width: 10rem; }
+
 .navigation {
   background-color: white;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);

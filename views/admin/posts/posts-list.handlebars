@@ -22,12 +22,16 @@
             </tr>
             </thead>
             <tbody>
+            {{#each posts}}
             <tr>
-                <td>hbsjdgbhsf</td>
-                <td>hbsjdgbhsf</td>
-                <td>hbsjdgbhsf</td>
-                <td>hbsjdgbhsf</td>
-                <td>hbsjdgbhsf</td>
+
+                <td>{{_id}}</td>
+                <td>{{title}}</td>
+                <td>{{body}}</td>
+                <td>
+                    <img alt="{{file}}"  class="table-img" src="./uploads/posts/{{file}}"/>
+                </td>
+                <td>{{date}}</td>
                 <td>
                    <div class="form-options-btn">
                        <a class="btn-sm btn-sm-success">Edit</a>
@@ -37,7 +41,7 @@
                    </div>
                 </td>
             </tr>
-
+            {{/each}}
             </tbody>
         </table>
     </div>
