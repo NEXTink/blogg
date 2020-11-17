@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Example App</title>
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/all.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
 </head>
@@ -13,30 +14,52 @@
     <figure>
         <h2 class="logo">Blog</h2>
     </figure>
-    <ul class="admin-nav--list">
-        <li class="admin-nav--list-item">
-            <a href="/" class="admin-nav--list-item-link">Home</a>
-        </li>
-        <li class="admin-nav--list-item">
-            <a href="/" class="admin-nav--list-item-link">Home</a>
-        </li>
-    </ul>
-    <div>
-        <form>
-          <div>
-              <input/>
-              <button class="btn btn-green">
-                  search
+
+    <div class="top-tools-section">
+        <form class="search-form">
+          <div class="search-box">
+              <input placeholder="search here"  />
+              <button class="search-btn">
+                 <i class="far fa-search"></i>
               </button>
           </div>
         </form>
+        <ul class="top-tools">
+            <li class="top-tools-item">
+                <span class="alert-circle"></span>
+                <a> <i class="far fa-bell"></i></a>
+            </li>
+            <li class="top-tools-item">
+                <span class="alert-circle"></span>
+                <a> <i class="far fa-envelope"></i></a>
+            </li>
+        </ul>
     </div>
 
 
 </nav>
 <main class="admin-body">
     <aside class="side-bar">
-
+       <ul class="side-bar-list">
+           <li class="side-bar-list-item">
+               <a class="side-bar-list-item-link">
+                  <span> <i class="far fa-user"></i></span>
+               </a>
+           </li>
+           <li class="side-bar-list-item">
+               <a href="/admin/post" class="side-bar-list-item-link">
+                <span><i class="far fa-edit"></i></span>
+               </a>
+           </li>
+           <li class="side-bar-list-item">
+               <a  href="/admin/posts" class="side-bar-list-item-link">
+                   <span><i class="far fa-list-alt"></i></span>
+               </a>
+           </li>
+<!--           <li class="side-bar-list-item">-->
+<!--               <a class="side-bar-list-item-link"></a>-->
+<!--           </li>-->
+       </ul>
     </aside>
     <section class="main-section">
         {{{body}}}

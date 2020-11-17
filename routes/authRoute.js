@@ -6,9 +6,10 @@ Router.post('/login', async(req,res)=>{
     // res.render('alerts/success')
 
     const validUser = await User.findOne({email: req.body.email});
-    const validPassword = bcrypt.compare(req.body.password, validUser.password);
-    if(validUser && validPassword){
-        res.redirect('/')
+    // const validPassword = bcrypt.compare(req.body.password, validUser.password);
+    if(validUser){
+        req.session.USERID = validUser._id;
+        res.redirect('/admin/');
     }
     else{
         return   res.status(403).send('error found')
@@ -47,6 +48,22 @@ Router.get('/login',(req,res)=>{
 //SEND A POST
 Router.get('/register',(req,res)=>{
     res.render('auth/register');
+});
+
+
+//LOG OUT
+
+
+Router.get('/logout',(req,res)=>{
+    res.render('auth/logout');
+});
+
+//SEND A POST
+Router.post('/logout',(req,res)=>{
+    req.session.destroy((err)=>{
+        if(err) return  res.status(400).send(err)
+        res.send('data')
+    });
 });
 
 

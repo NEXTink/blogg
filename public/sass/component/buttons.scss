@@ -2,7 +2,7 @@
   &,&:link{
     border: none;
     padding: 1.2rem 1.5rem;
-    border-radius: 1rem;
+    border-radius: 200rem;
     display: inline-block;
     transition: all $dur ease-out;
     font-size: $para;
@@ -24,4 +24,58 @@
       box-shadow: 0 2px 20px rgba(0,0,0,.1);
     }
   }
+  &-red{
+    background-color: #faa7c0;
+    color: #d90a43;
+    &:hover{
+      background-color: #ef7194;
+      color: white;
+      box-shadow: 0 2px 20px rgba(0,0,0,.1);
+    }
+  }
+}
+
+
+
+.btn-sm{
+  &,&:link{
+    border: none;
+    padding: .8rem 1.1rem;
+    border-radius: 200rem;
+    display: inline-block;
+    transition: all $dur ease-out;
+    font-size: 1.25rem;
+
+  }
+  &-success{
+    background-color: rgb(49, 141, 224);
+    color: white;
+    &:hover{
+      background-color: rgb(30, 104, 171);;
+      box-shadow: 0 2px 20px rgba(0,0,0,.1);
+    }
+  }
+  &-green{
+    background-color: #36ec54;
+    color: white;
+    &:hover{
+      background-color: #14a72d;
+      box-shadow: 0 2px 20px rgba(0,0,0,.1);
+    }
+  }
+  &-red{
+    background-color: #faa7c0;
+    color: #d90a43;
+    &:hover{
+      background-color: #ef7194;
+      color: white;
+      box-shadow: 0 2px 20px rgba(0,0,0,.1);
+    }
+  }
+}
+
+.search-btn{
+  border: none;
+  background-color: transparent;
+  font-size: 1.45rem;
 }
