@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f6da4f-f607-49dd-9c27-299ec11f09f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/helpers/post_helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sass/component/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/sass/component/form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/posts/create-post.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/posts/create-post.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/posts/posts-list.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/posts/posts-list.handlebars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +102,7 @@
       <workItem from="1605524908452" duration="2754000" />
       <workItem from="1605528784426" duration="8391000" />
       <workItem from="1605597904020" duration="14578000" />
-      <workItem from="1605618345280" duration="13381000" />
+      <workItem from="1605618345280" duration="13620000" />
     </task>
     <servers />
   </component>

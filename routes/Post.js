@@ -42,7 +42,7 @@ Router.post('/post',(req,res)=>{
         post.save()
             .then(()=> {
 
-                file.file.mv('/uploads/' + filename,(err)=>console.log(err))
+                file.file.mv('./public/uploads/posts/' + filename,(err)=>console.log(err))
                 res.send('done')
             })
             .catch(err=>console.log(err));
